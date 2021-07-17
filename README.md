@@ -21,7 +21,7 @@ However, this doesn't work: the "size grip" is present, but the dialog window st
 The proposed solution is inspired from a reply on a thread on the [QtCentre forum](https://www.qtcentre.org/forum.php).
 The [reply](https://www.qtcentre.org/threads/24888-Resizing-a-QMessageBox?p=135851#post135851) in the thread [Resizing a QMessageBox?](https://www.qtcentre.org/threads/24888-Resizing-a-QMessageBox) suggests a "really nasty hack" to solve the problem, by overriding the 'event' function of the QmessageBox class.
 
-However, some changes have been made in order to make it less a "nasty hack" (besides of course the "translation" from C++ to Python):
+It wasn't an ideal solution, so changes have been made in order to make it less a "nasty hack" (besides of course the "translation" from C++ to Python):
 - Instead of overriding the general event handler method, it is preferable to override the 'resizeEvent' method, as it will only be executed on resize related events.
 - Having the size grip always present isn't ideal, as there is no reason to resize the dialog window when the detailed text is not shown.
 - The code allowing the resizing is only executed when the size grip is present.
@@ -31,7 +31,7 @@ However, some changes have been made in order to make it less a "nasty hack" (be
 ## Examples
 
 Here are 2 examples of the Resizable Message Box in action.
-The first one is in a standard Python application, the second one is inside a Maya 2020 session.
+The first one is in a standard Python application, the second one is inside a Autodesk Maya 2020 session.
 
 ![standalone](images/standalone.gif)
 
