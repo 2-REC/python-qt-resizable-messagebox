@@ -30,9 +30,12 @@ However, some changes have been made in order to make it less a "nasty hack" (be
 
 ## Examples
 
-Here are examples of the Resizable Message Box in action either in a standard Python application or inside a Maya 2020 session.
+Here are 2 examples of the Resizable Message Box in action.
+The first one is in a standard Python application, the second one is inside a Maya 2020 session.
 
-(TODO: add animated GIFs)
+![standalone](images/standalone.gif)
+
+![Maya](images/maya.gif)
 
 
 ## Files
@@ -41,9 +44,8 @@ Here are examples of the Resizable Message Box in action either in a standard Py
 * [extras]
     * **Qt.py**: The [Qt.py](#qtpy) file allowing to use the different Qt Python bindings
     * **dialogs.py**: An example file showing how to define common message box types using the Resizable Message Box
-    (TODO:
     * **usage.py**: An example file showing how to use the message boxes
-    )
+    * **usage_maya.py**: An example file showing how to use the message boxes in Maya
 
 
 ### Qt.py
@@ -64,5 +66,5 @@ Qt and one of the Python bindings need to be installed on the system, and access
 In Maya: Qt and its PySide bindings are included in the installation, hence don't need to be installed separately.
 
 ### Python version
-The project is written in Python 2 (aimed and tested in Python 2.7).
-It might need some small changes in order to work in Python 3.
+The project was written in Python 2.7 (as used by Maya 2020), but should work with any version of Python post 2.7.
+The code has been tested in Maya 2019 and 2020, as well as standalone in Python 2.7.16 and 3.7.9.
