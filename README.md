@@ -31,7 +31,7 @@ It wasn't an ideal solution, so changes have been made in order to make it less 
 ## Examples
 
 Here are 2 examples of the Resizable Message Box in action.
-The first one is in a standard Python application, the second one is inside a Autodesk Maya 2020 session.
+The first one is in a standard Python application, the second one is inside an Autodesk Maya session.
 
 ![standalone](images/standalone.gif)
 
@@ -46,6 +46,11 @@ The first one is in a standard Python application, the second one is inside a Au
     * **dialogs.py**: An example file showing how to define common message box types using the Resizable Message Box
     * **usage.py**: An example file showing how to use the message boxes
     * **usage_maya.py**: An example file showing how to use the message boxes in Maya
+
+
+## Usage
+
+Some examples on how to use the Resizable Message Box are provided in [extras/usage.md](extras/usage.md)
 
 
 ### Qt.py
@@ -67,4 +72,4 @@ In Maya: Qt and its PySide bindings are included in the installation, hence don'
 
 ### Python version
 The project was written in Python 2.7 (as used by Maya 2020), but should work with any version of Python post 2.7.
-The code has been tested in Maya 2019 and 2020, as well as standalone in Python 2.7.16 and 3.7.9.
+The code has been tested in Maya 2019-2022, as well as standalone in Python 2.7.16 and 3.7.9.
