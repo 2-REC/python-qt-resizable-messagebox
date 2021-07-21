@@ -60,7 +60,7 @@ The provided version of Qt.py can be used.
 
 ## Usage
 
-Some examples on how to use the Resizable Message Box are provided in [extras](extras/usage.md)
+Some examples on how to use the Resizable Message Box are provided in [extras](extras)
 
 
 ## Remarks
