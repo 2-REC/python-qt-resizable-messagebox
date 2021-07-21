@@ -48,11 +48,6 @@ The first one is in a standard Python application, the second one is inside an A
     * **usage_maya.py**: An example file showing how to use the message boxes in Maya
 
 
-## Usage
-
-Some examples on how to use the Resizable Message Box are provided in [extras/usage.md](extras/usage.md)
-
-
 ### Qt.py
 
 *Qt.py enables you to write software that runs on any of the 4 supported bindings - PySide2, PyQt5, PySide and PyQt4.*
@@ -61,6 +56,11 @@ Use of [Qt.py](https://github.com/mottosso/Qt.py) from [Marcus Ottosson](https:/
 
 The Qt.py file must be located in one of the defined Python paths.
 The provided version of Qt.py can be used.
+
+
+## Usage
+
+Some examples on how to use the Resizable Message Box are provided in [extras/usage.md](extras/usage.md)
 
 
 ## Remarks
