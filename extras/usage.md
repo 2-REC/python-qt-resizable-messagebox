@@ -1,6 +1,5 @@
 # Usage example
 
-
 ## Basic usage
 
 Simple example showing how to create and use a Resizable Message Box.
@@ -83,5 +82,3 @@ Simply import the example file:
 ```python
 import usage_maya
 ```
-
-
